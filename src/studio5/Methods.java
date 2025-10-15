@@ -106,5 +106,13 @@ public class Methods {
 	// TODO: Create an arrayMean method which accepts an int array of values parameter.
 	// TODO: Create a JavaDoc comment for the arrayMean method.
 
+	/**
+	 * @param values integer array of array you want the mean of
+	 * @return double that is the average (mean) of the array
+	 */
+
+	public static double arrayMean(int[] values){
+		return (arraySum(values))/(double)(values.length);
+	}
 	
 }
